@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.29519.181
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APICompras", "APICompras\APICompras.csproj", "{3F47E4A0-7E85-4FE7-8212-3F00D379DA66}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIComprasTest", "APIComprasTest\APIComprasTest.csproj", "{2708BB1D-36EF-4AE5-9533-DED3F30E8D42}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APIComprasTest", "APIComprasTest\APIComprasTest.csproj", "{2708BB1D-36EF-4AE5-9533-DED3F30E8D42}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Compras", "Compras", "{FDE372FE-7A47-4DF8-8655-A46CC0F96959}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,6 +26,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3F47E4A0-7E85-4FE7-8212-3F00D379DA66} = {FDE372FE-7A47-4DF8-8655-A46CC0F96959}
+		{2708BB1D-36EF-4AE5-9533-DED3F30E8D42} = {FDE372FE-7A47-4DF8-8655-A46CC0F96959}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5BD67888-FF8C-4DB3-8E03-ACC90B0FFFC9}
